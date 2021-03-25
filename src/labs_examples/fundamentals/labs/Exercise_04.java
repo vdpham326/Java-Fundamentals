@@ -16,6 +16,12 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
+        float f = 1.23f;
+        System.out.println("float f is: " + f);
+
+        char c = 'a';
+        System.out.println("char c is: " + c);
+
 
     }
 
