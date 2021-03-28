@@ -1,5 +1,5 @@
 package labs_examples.conditions_loops.labs;
-
+import java.util.Scanner;
 /**
  * Conditions and Loops Exercise 8: do-while loop
  *
@@ -8,4 +8,11 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_08 {
+    public static void main(String[] args) {
+        int number = 1000;
+        do {
+            System.out.println(number);
+            number -= 3;
+        } while (number > 0);
+    }
 }

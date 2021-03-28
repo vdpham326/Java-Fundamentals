@@ -8,4 +8,14 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_09 {
+    public static void main(String[] args) {
+        int num = 100;
+        while(true) {
+            System.out.println(num);
+            if (num == 56) {
+                break;
+            }
+            num--;
+        }
+    }
 }
